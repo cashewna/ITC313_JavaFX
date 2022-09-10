@@ -15,12 +15,10 @@ public class ShowImage extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        System.out.println(getClass().getResource("/images/au.gif"));
-
         // Create an HBox pane which places all nodes horizontally in one row
         Pane pane = new HBox(10);
         pane.setPadding(new Insets(5, 5, 5, 5)); // padding
-        Image image = new Image("/images/au.gif");
+        Image image = new Image("images/au.gif");
         pane.getChildren().add(new ImageView(image));
 
         ImageView imageView = new ImageView(image);
