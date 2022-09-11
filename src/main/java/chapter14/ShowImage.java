@@ -9,8 +9,6 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-import java.nio.file.Paths;
-
 public class ShowImage extends Application {
     @Override
     public void start(Stage stage) throws Exception {
